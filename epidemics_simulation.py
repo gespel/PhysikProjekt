@@ -1,8 +1,9 @@
 import numpy as np
 import random
 import time
+import os
 
-WIDTH, HEIGHT = 20, 10
+WIDTH, HEIGHT = 50,50
 
 SUSCEPTIBLE = 0
 INFECTED = 1
@@ -57,3 +58,4 @@ for _ in range(steps):
     print_population()
     grid, infection_durations = update_population()
     time.sleep(0.5)
+    os.system("clear")

@@ -48,7 +48,7 @@ def main():
     while True:
         display_grid(grid)
         grid = update_grid(grid)
-        time.sleep(0.005)
+        time.sleep(0.05)
 
 if __name__ == "__main__":
     main()

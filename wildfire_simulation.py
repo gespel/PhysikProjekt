@@ -64,7 +64,7 @@ def main():
     while True:
         display_grid(grid)
         grid = spread_fire(grid, fire_time)
-        time.sleep(0.01)
+        time.sleep(0.1)
 
         if BRENNEND not in grid:
             break
